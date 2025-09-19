@@ -1,0 +1,62 @@
+# Node/JS
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build outputs
+/dist
+/build
+/.cache
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Secrets & certificates
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+*.der
+*.mobileprovision
+*.provisionprofile
+*.keystore
+*.jks
+*.p8
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+**/*.xcworkspace/xcuserdata/
+**/*.xcodeproj/xcuserdata/
+**/*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+**/*.xcuserstate
+
+# iOS build artifacts
+reclip-ai-digest/ios/App/build/
+reclip-ai-digest/ios/App/DerivedData/
+reclip-ai-digest/ios/App/Pods/
+reclip-ai-digest/ios/DerivedData/
+reclip-ai-digest/ios/Pods/
+
+# Capacitor cache/public
+reclip-ai-digest/ios/App/App/public/
+
+# Supabase local
+reclip-ai-digest/supabase/.branches
+reclip-ai-digest/supabase/.temp
+reclip-ai-digest/supabase/.env
+reclip-ai-digest/supabase/.functions
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
